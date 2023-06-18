@@ -18,7 +18,7 @@ from nnunetv2.training.data_augmentation.custom_transforms.region_based_training
     ConvertSegmentationToRegionsTransform
 from nnunetv2.training.data_augmentation.custom_transforms.transforms_for_dummy_2d import Convert2DTo3DTransform, \
     Convert3DTo2DTransform
-from nnunetv2.training.nnUNetTrainer import nnUNetTrainer
+from nnunetv2.training.nnUNetTrainer.nnUNetTrainer import nnUNetTrainer
 from nnunetv2.training.data_augmentation.custom_transforms.gin_ipa_augmentation import GinIpaAugmentation
 
 class nnUNetTrainerGinIpa(nnUNetTrainer):
